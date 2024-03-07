@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71863c7e-ad1a-49f1-bd5e-3976a0c770e1" name="Changes" comment="step replacing this with delegate">
+    <list default="true" id="71863c7e-ad1a-49f1-bd5e-3976a0c770e1" name="Changes" comment="step 7_1: test pass for isEmpty">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AppTest.testIsEmpty.executor": "Run",
     "JUnit.AppTest.testPopEmptyStack.executor": "Run",
     "JUnit.AppTest.testPushAndPopMixedTypes.executor": "Run",
     "JUnit.AppTest.testPushPop.executor": "Run",
+    "JUnit.AppTest.testSize.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,7 +52,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AppTest.testIsEmpty">
+  <component name="RunManager" selected="JUnit.AppTest.testSize">
     <configuration name="AppTest.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab8_2" />
       <extension name="coverage">
@@ -114,8 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab8_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="testSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testSize" />
         <item itemvalue="JUnit.AppTest.testIsEmpty" />
         <item itemvalue="JUnit.AppTest.testPushAndPopMixedTypes" />
         <item itemvalue="JUnit.AppTest.testPopEmptyStack" />
@@ -156,13 +176,39 @@
       <option name="project" value="LOCAL" />
       <updated>1709774572957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="step 6: set the delegate to a new ArrayList instead of &quot;this&quot;">
+      <option name="closed" value="true" />
+      <created>1709774760725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709774760725</updated>
+    </task>
+    <task id="LOCAL-00005" summary="step 6: set the delegate to a new ArrayList instead of &quot;this&quot;">
+      <option name="closed" value="true" />
+      <created>1709774808890</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709774808890</updated>
+    </task>
+    <task id="LOCAL-00006" summary="step 7_1: test pass for isEmpty">
+      <option name="closed" value="true" />
+      <created>1709774945985</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709774945985</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="step 3 test pass for push and pop" />
     <MESSAGE value="step 3 this.add" />
     <MESSAGE value="step replacing this with delegate" />
-    <option name="LAST_COMMIT_MESSAGE" value="step replacing this with delegate" />
+    <MESSAGE value="step 6: set the delegate to a new ArrayList instead of &quot;this&quot;" />
+    <MESSAGE value="step 7_1: test pass for isEmpty" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 7_1: test pass for isEmpty" />
   </component>
 </project>

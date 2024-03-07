@@ -23,4 +23,8 @@ public class MyStack<E> {
     public boolean isEmpty() {
         return delegate.isEmpty();
     }
+    public int size() {
+        return delegate.size();
+    }
+
 }
