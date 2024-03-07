@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71863c7e-ad1a-49f1-bd5e-3976a0c770e1" name="Changes" comment="step 3 test pass for push and pop">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="71863c7e-ad1a-49f1-bd5e-3976a0c770e1" name="Changes" comment="step replacing this with delegate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" afterDir="false" />
     </list>
@@ -50,7 +49,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AppTest.testPushAndPopMixedTypes">
+  <component name="RunManager" selected="JUnit.AppTest.testPopEmptyStack">
     <configuration name="AppTest.testPopEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab8_2" />
       <extension name="coverage">
@@ -101,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testPushAndPopMixedTypes" />
         <item itemvalue="JUnit.AppTest.testPopEmptyStack" />
+        <item itemvalue="JUnit.AppTest.testPushAndPopMixedTypes" />
         <item itemvalue="JUnit.AppTest.testPushPop" />
       </list>
     </recent_temporary>
@@ -124,11 +123,29 @@
       <option name="project" value="LOCAL" />
       <updated>1709774017575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="step 3 this.add">
+      <option name="closed" value="true" />
+      <created>1709774369949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709774369949</updated>
+    </task>
+    <task id="LOCAL-00003" summary="step replacing this with delegate">
+      <option name="closed" value="true" />
+      <created>1709774572957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709774572957</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="step 3 test pass for push and pop" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 3 test pass for push and pop" />
+    <MESSAGE value="step 3 this.add" />
+    <MESSAGE value="step replacing this with delegate" />
+    <option name="LAST_COMMIT_MESSAGE" value="step replacing this with delegate" />
   </component>
 </project>
