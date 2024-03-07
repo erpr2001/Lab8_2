@@ -65,4 +65,13 @@ public class AppTest
         MyStack<Integer> stack = new MyStack<>();
         assertThrows(EmptyStackException.class, stack::pop);
     }
+
+    public void testIsEmpty() {
+        MyStack<Integer> stack = new MyStack<>();
+        assertTrue(stack.isEmpty());
+        stack.push(1);
+        assertFalse(stack.isEmpty());
+        stack.pop();
+        assertTrue(stack.isEmpty());
+    }
 }
