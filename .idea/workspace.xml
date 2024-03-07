@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71863c7e-ad1a-49f1-bd5e-3976a0c770e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="71863c7e-ad1a-49f1-bd5e-3976a0c770e1" name="Changes" comment="step 3 test pass for push and pop">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +38,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AppTest.testPopEmptyStack.executor": "Run",
+    "JUnit.AppTest.testPushAndPopMixedTypes.executor": "Run",
     "JUnit.AppTest.testPushPop.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AppTest.testPopEmptyStack">
+  <component name="RunManager" selected="JUnit.AppTest.testPushAndPopMixedTypes">
     <configuration name="AppTest.testPopEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab8_2" />
       <extension name="coverage">
@@ -103,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testPopEmptyStack" />
         <item itemvalue="JUnit.AppTest.testPushAndPopMixedTypes" />
+        <item itemvalue="JUnit.AppTest.testPopEmptyStack" />
         <item itemvalue="JUnit.AppTest.testPushPop" />
       </list>
     </recent_temporary>
@@ -118,6 +116,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709773601067</updated>
     </task>
+    <task id="LOCAL-00001" summary="step 3 test pass for push and pop">
+      <option name="closed" value="true" />
+      <created>1709774017575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709774017575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="step 3 test pass for push and pop" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 3 test pass for push and pop" />
   </component>
 </project>

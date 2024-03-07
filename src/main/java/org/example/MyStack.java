@@ -4,16 +4,20 @@ import java.util.ArrayList;
 import java.util.EmptyStackException;
 
 public class MyStack<E> extends ArrayList<E>{
+    private ArrayList<E> delegate;
+    public MyStack(){
+        delegate=this;
+    }
 
 
     public void push(E e) {
-        add(e);
+        this.add(e);
     }
 
     public E pop() {
-        if (isEmpty()) throw new EmptyStackException();
-        E e = get(size() - 1);
-        remove(size() -1 );
+        if (this.isEmpty()) throw new EmptyStackException();
+        E e = this.get(this.size() - 1);
+        this.remove(this.size() -1 );
         return e;
     }
 }
